@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Fortune</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+</head>
+<body>
+	<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Eye Of Horus</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#fortune">Fortune</a></li>
+        <li><a href="#learn">Learn</a></li>
+      </ul>
+    </div>
+  </nav>
+	<div class="container center-align">
+		<div id="welcome">
+			<h1>Welcome!</h1>
+			<p> Tired of tarot cards? </p>
+			<p> Want a different system than runes?</p>
+			<p>The wisdom of Ancient Eygpt comes alive.</p>
+			<div><a class="btn waves-effect waves-yellow">Fortune</a><a class="waves-effect waves-light btn" href="#learn">Learn</a></div>
+		</div>
+		<div id="fortune">
+			<h2 id="title"> Fortune </h2>
+			<img id="card" class="circle" src="images/background.jpg" onclick="shuffle()">
+		</div>
+
+		<div id="learn">
+			<div class="carousel">
+				<a class="carousel-item" href="#one!"><img src="images/ba.jpg"></a>
+				<a class="carousel-item" href="#two!"><img src="images/griffin.jpg"></a>
+				<a class="carousel-item" href="#three!"><img src="images/ka.jpg"></a>
+				<a class="carousel-item" href="#four!"><img src="images/lotus.jpg"></a>
+				<a class="carousel-item" href="#five!"><img src="images/ma'at.jpg"></a>
+				<a class="carousel-item" href="#four!"><img src="images/scarab.jpg"></a>
+				<a class="carousel-item" href="#five!"><img src="images/spiral.jpg"></a>
+			</div>
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+	<script src="cards.js"></script>
+</body>
+</html>
